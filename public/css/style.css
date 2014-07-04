@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #98bf21;
+}
+
+td, th {
+    padding: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #A7C942;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #EAF2D3;
+}
+
+.core {
+    font-weight: bold;
+}
+
+.padding {
+    color: #666;
+    font-style: italic;
+}
+
+section {
+    display: inline-block;
+}
+
+section table {
+    float: left;
+}
+section h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
